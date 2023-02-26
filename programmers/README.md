@@ -1,5 +1,54 @@
 # programmers
 
+
+## 두 수의 합
+### 문제 설명
+정수 num1과 num2가 주어질 때, num1과 num2의 합을 return하도록 soltuion 함수를 완성해주세요.
+
+```go
+func solution(num1, num2 int) int {
+	return num1 + num2
+}
+```
+
+## 몫 구하기
+### 문제 설명
+정수 num1, num2가 매개변수로 주어질 때, num1을 num2로 나눈 몫을 return 하도록 solution 함수를 완성해주세요.
+```go
+func solution(num1, num2 int) int {
+    return num1 / num2
+}
+```
+
+## 두 수의 곱하기
+### 문제 설명
+정수 num1, num2가 매개변수 주어집니다. num1과 num2를 곱한 값을 return 하도록 solution 함수를 완성해주세요.
+```go
+func solution(num1, num2 int) int {
+    return num1 * num2
+}
+```
+
+## 숫자 비교하기
+정수 num1과 num2가 매개변수로 주어집니다. 두 수가 같으면 1 다르면 -1을 retrun하도록 solution 함수를 완성해주세요.
+```go
+func solution(num1 int, num2 int) int {
+    if num1 == num2 {
+        return 1
+    } else {
+        return -1
+    }
+}
+```
+
+## 나머지 구하기
+정수 num1, num2가 매개변수로 주어질 때, num1를 num2로 나눈 나머지를 return 하도록 solution 함수를 완성해주세요.
+```go
+func solution(num1, num2 int) int {
+    return num1 % num2
+}
+```
+
 ## 가장 가까운 글자
 처음으로 불어봤습니다. [코딩테스트 - 가장 가까운 같은 글자
 ](https://velog.io/@qkqk2938/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8)를 참고하여 풀었습니다.
